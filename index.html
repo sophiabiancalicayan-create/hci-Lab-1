@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MOCKup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="logo-container">
+      <img src="./hcdc.png" alt="HCDC Logo" class="logo" />
+    </div>
+    <div class="nav-items">
+      <a href="/">Dash</a>
+      <a href="/">About</a>
+      <a href="/">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-container">
+
+      <div class="column-left">
+        <h1>HCDC Website</h1>
+        <p>
+          Bachelor of Science in Information Technology and Bachelor of Library and Information Science students.
+        </p>
+
+        <!-- Existing button -->
+        <button onclick="showAlert()">Click me</button>
+      </div>
+
+      <div class="column-right">
+        <img src="./hcdc.png" alt="illustration" class="hero-image" />
+      </div>
+
+    </div>
+
+    <div class="buttons">
+      <button onclick="redirect()">Go to Google</button>
+      <button onclick="showAlert()">Click Me</button>
+
+      <button onclick="newAlert()">New Alert</button>
+
+      <div class="author">
+        Design by: Sophia Bianca Licayan
+      </div>
+
+    </div>
+
+  </section>
+
+  <script>
+    function redirect() {
+      window.location.href = "https://www.google.com";
+    }
+
+    function showAlert() {
+      alert("Hello!");
+    }
+
+    function newAlert() {
+      alert(" Click me");
+    }
+  </script>
+
+
+
+</body>
+</html>
